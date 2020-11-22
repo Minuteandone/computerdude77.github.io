@@ -282,27 +282,23 @@ _gaq.push(['brand._trackPageview']);
 				$flash = $("#flashContent");
 				flash = $flash[0];
 				var flashversion = "9.0.0";
-				if(swfobject.hasFlashPlayerVersion(flashversion)){
-					var flashvars = {};
-					flashvars.compo = getHash();
-					flashvars.folder = "app/";
-					flashvars.siteURL = "http://www.incredibox.fr/";
-					flashvars.top = $flash.offset().top;
-					flashvars.left = $flash.offset().left;
-					flashvars.check = 'true';					var params = {};
-					params.bgcolor = "#304469";
-					params.menu = "false";
-					params.quality = "best";
-					params.salign = "T";
-					params.scale = "noscale";
-					params.wmode = "opaque";
-					params.allowfullscreen = "false";
-					params.allowscriptaccess = "always";
-					var attributes = {};
-					swfobject.embedSWF(flashvars.folder+"index-vaxe.swf", "flashContent", "1100", "560", flashversion, "", flashvars, params, attributes, embedFlashOk)
-				}else{
-					$(".info", $flash).show();
-				}
+				var flashvars = {};
+				flashvars.compo = getHash();
+				flashvars.folder = "app/";
+				flashvars.siteURL = "http://www.incredibox.fr/";
+				flashvars.top = $flash.offset().top;
+				flashvars.left = $flash.offset().left;
+				flashvars.check = 'true';					var params = {};
+				params.bgcolor = "#304469";
+				params.menu = "false";
+				params.quality = "best";
+				params.salign = "T";
+				params.scale = "noscale";
+				params.wmode = "opaque";
+				params.allowfullscreen = "false";
+				params.allowscriptaccess = "always";
+				var attributes = {};
+				swfobject.embedSWF(flashvars.folder+"index-vaxe.swf", "flashContent", "1100", "560", flashversion, "", flashvars, params, attributes, embedFlashOk)
 				init("#bt1");
 				activeResize();
 			});
