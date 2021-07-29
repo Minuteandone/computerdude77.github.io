@@ -1,0 +1,1 @@
+&scoreVar=_root.currentscore&blah=1

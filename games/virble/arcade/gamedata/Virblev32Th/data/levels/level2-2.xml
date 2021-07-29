@@ -1,0 +1,39 @@
+<level stage="2" substage="2" background="2" timelimit="5:00" bgmusic="webloop1">
+	<tile x="221.6" y="211.5"/>
+	<tile x="300.1" y="164.5"/>
+	<tile x="183.1" y="279.5"/>
+	<tile x="182.6" y="141.5"/>
+	<tile x="261.6" y="142.5"/>
+	<tile x="262.6" y="279"/>
+	<tile x="223.1" y="303.5" type="grey"/>
+	<tile x="222.6" y="119.5" type="grey"/>
+	<tile x="222.1" y="164.5"/>
+	<tile x="222.6" y="256.5"/>
+	<tile x="260.6" y="188.5"/>
+	<tile x="144.6" y="255.5"/>
+	<tile x="183.6" y="233.5"/>
+	<tile x="105.6" y="187.5"/>
+	<tile x="144.6" y="210.5"/>
+	<tile x="341.1" y="233.5"/>
+	<tile x="301.1" y="210.5"/>
+	<tile x="339.1" y="187.5"/>
+	<tile x="25.1" y="232.5" type="grey"/>
+	<tile x="66.1" y="164" type="grey"/>
+	<tile x="64.6" y="255.5" type="grey"/>
+	<tile x="379.1" y="256.5" type="grey"/>
+	<tile x="379.1" y="165" type="grey"/>
+	<tile x="419.1" y="188" type="grey"/>
+	<tile x="302.1" y="255.5"/>
+	<tile x="262.1" y="233.5"/>
+	<tile x="65.1" y="210" type="bomb_choobie"/>
+	<tile x="183.6" y="187.5"/>
+	<tile x="143.6" y="164.5"/>
+	<tile x="380.1" y="210.5" type="bonus_choobie"/>
+	<tile x="105.6" y="233.5"/>
+	<tile x="25.1" y="186" type="grey"/>
+	<tile x="419.1" y="233" type="grey"/>
+	<tile x="301.1" y="118.5"/>
+	<tile x="143.6" y="118.5"/>
+	<tile x="301.1" y="301.5"/>
+	<tile x="143.1" y="301.5"/>
+</level>
