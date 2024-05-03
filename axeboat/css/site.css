@@ -1236,6 +1236,6 @@ input[type='submit']:hover, .bt:hover{
     position: absolute;
     top: 50%;
     left: 50%;
-	margin-left: -200px;
-    margin-top: -200px;
+	margin-left: 10em;
+    margin-top: 10em;
 }
