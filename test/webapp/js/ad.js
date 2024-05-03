@@ -1,2 +1,0 @@
-/* 0.0.1 2020-11-30 15:44:25 */
-var adBreak,adConfig,withAdBreak,adVisible;function initAd(){window.adsbygoogle=window.adsbygoogle||[],adBreak=adConfig=function(a){adsbygoogle.push(a)},adConfig({preloadAdBreaks:"on",sound:"on"}),withAdBreak="1"==getParameterByName("a"),adVisible=!1}function callAd(a,e,d,n){a=a||"next",e=e||"start-game",d=d||nada,n=n||nada,adsbygoogle.loaded,adBreak({type:a,name:e,beforeBreak:function(){beforeAd(),d()},afterBreak:function(){afterAd(),n()}})}function beforeAd(){adVisible=!0,killFocusEvent()}function afterAd(){adVisible=!1,initFocusEvent()}
